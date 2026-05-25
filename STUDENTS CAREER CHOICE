@@ -1,0 +1,20 @@
+pydrid.py_file
+
+name = "Lewin Kamau Wanjiku"
+age = 20
+home_town = "Nairobi"
+careers = ["Geoscience", "mechanical"]
+institutuon = "Kwenu university"
+allowed_careers =[
+       "Geoscience",
+       "Mechanical",
+       "Electrical",
+       "civil",       ]
+print(f"I am {name}, {age} years old from {home_town},")
+print(f"I would like to study at {institution}.")
+
+for career in careers:
+        if career in allowed_careers:
+           print(f"{career} is offered at {institution}")
+        else:
+            print(f"{career} is NOT offered at {institution}")
